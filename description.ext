@@ -1,0 +1,71 @@
+onLoadMission = "Teste cameras";
+onLoadIntroTime = 1;
+author="Djavu";
+OnLoadName = "Central de inteligencia";
+loadScreen =  "img\Loading1.jpg";
+respawn = "BASE";
+respawnDelay = 5;
+respawnDialog = false;
+enableDebugConsole = 1;
+
+saving = 0;               
+disabledAI = 1;
+
+class CfgSounds {
+	sounds[] ={};
+
+class recon350
+{
+	sound[] = {"som\recon350.ogg", 2, 1};
+	titles[] = {};
+	};
+	class recon50
+{
+	sound[] = {"som\recon50.ogg", 2, 1};
+	titles[] = {};
+	};
+	
+	class uav_abatido
+{
+	sound[] = {"som\uav_abatido.ogg", 2, 1};
+	titles[] = {};
+	};
+	class pilot_uav
+{
+	sound[] = {"som\pilot_uav.ogg", 2, 1};
+	titles[] = {};
+	};
+	class camera_uav
+{
+	sound[] = {"som\camera_uav.ogg", 2, 1};
+	titles[] = {};
+	};
+	/// drone atak
+	
+	class atak350
+{
+	sound[] = {"som\atak350.ogg", 2, 1};
+	titles[] = {};
+	};
+	class atak50
+{
+	sound[] = {"som\atak50.ogg", 2, 1};
+	titles[] = {};
+	};
+	
+	class uav2_abatido
+{
+	sound[] = {"som\uav2_abatido.ogg", 2, 1};
+	titles[] = {};
+	};
+	class pilot_uav2
+{
+	sound[] = {"som\pilot_uav2.ogg", 2, 1};
+	titles[] = {};
+	};
+	class camera_uav2
+{
+	sound[] = {"som\camera_uav2.ogg", 2, 1};
+	titles[] = {};
+	};
+	};
